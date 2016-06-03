@@ -31,7 +31,6 @@ class ExecutorTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals(0, $executor->exec($output));
         $this->assertEquals("composer.json
 composer.lock
-coverage
 LICENSE
 phpunit.xml
 readme.md
