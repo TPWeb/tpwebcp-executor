@@ -37,6 +37,6 @@ readme.md
 src
 tests
 vendor", $output);
-        $this->assertEquals(['composer.json', 'composer.lock', 'coverage', 'LICENSE', 'phpunit.xml', 'readme.md', 'src', 'tests', 'vendor'], $executor->getResult());
+        $this->assertEquals(['composer.json', 'composer.lock', 'LICENSE', 'phpunit.xml', 'readme.md', 'src', 'tests', 'vendor'], $executor->getResult());
     }
 }
