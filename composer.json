@@ -1,0 +1,31 @@
+{
+  "name": "tpweb/tpwebcp-executor",
+  "version": "1.0.0",
+  "description": "PHP executor library for TPWebCP",
+  "keywords": ["tpwebcp"],
+  "homepage": "http://www.tpweb.org/",
+  "type": "library",
+  "license": "LGPL",
+  "authors": [
+    {
+      "name": "Tjebbe Lievens - Made I.T.",
+      "homepage": "http://www.tpweb.org",
+      "email": "tjebbe.lievens@madeit.be"
+    }
+  ],
+  "require": {
+    "illuminate/support": "~5.0",
+    "php": ">=5.6"
+  },
+  "require-dev": {
+      "phpunit/phpunit": "5.3.*"
+  },
+  "autoload": {
+    "classmap": [
+      "src/"
+    ],
+      "psr-4": {
+          "TPWeb\\TPWebCP\\Executor\\": "src/"
+      }
+  }
+}
